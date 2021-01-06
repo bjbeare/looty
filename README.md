@@ -498,7 +498,7 @@ The latest Ubuntu doesn't support some of the older tools used in this project. 
    
    Successful build output will look something like this (parts omitted):
 
-    [bjbeare@bjbeare-desktop test1]$ docker run -ti docker/test1:latest
+    $ docker run -ti docker/test1:latest
     Using node v8
     PATH += ~/.nvs/node/8.17.0/x64/bin
     Getting org.scala-sbt sbt 0.13.6 ...
@@ -508,12 +508,6 @@ The latest Ubuntu doesn't support some of the older tools used in this project. 
     	[SUCCESSFUL ] org.scala-lang#scala-library;2.10.4!scala-library.jar (2039ms)
     downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/main/0.13.6/jars/main.jar ...
     <snip>
-    [info] 	[SUCCESSFUL ] com.typesafe.play#twirl-compiler_2.10;1.0.4!twirl-compiler_2.10.jar (97ms)
-    [info] downloading https://repo1.maven.org/maven2/com/typesafe/play/twirl-api_2.10/1.0.4/twirl-api_2.10-1.0.4.jar ...
-    [info] 	[SUCCESSFUL ] com.typesafe.play#twirl-api_2.10;1.0.4!twirl-api_2.10.jar (77ms)
-    [info] downloading https://repo1.maven.org/maven2/com/typesafe/play/twirl-parser_2.10/1.0.4/twirl-parser_2.10-1.0.4.jar ...
-    [info] 	[SUCCESSFUL ] com.typesafe.play#twirl-parser_2.10;1.0.4!twirl-parser_2.10.jar (147ms)
-    [info] downloading https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.1/commons-lang3-3.1.jar ...
     [info] 	[SUCCESSFUL ] org.apache.commons#commons-lang3;3.1!commons-lang3.jar (164ms)
     [info] downloading https://repo1.maven.org/maven2/com/github/mdr/ascii-graphs_2.10/0.0.3/ascii-graphs_2.10-0.0.3.jar ...
     [info] 	[SUCCESSFUL ] com.github.mdr#ascii-graphs_2.10;0.0.3!ascii-graphs_2.10.jar (195ms)
@@ -529,9 +523,6 @@ The latest Ubuntu doesn't support some of the older tools used in this project. 
     [info] 	[SUCCESSFUL ] org.scala-js#scalajs-library_2.11;0.6.1!scalajs-library_2.11.jar (1971ms)
     [info] downloading https://repo1.maven.org/maven2/com/typesafe/play/twirl-api_2.11/1.0.4/twirl-api_2.11-1.0.4.jar ...
     [info] 	[SUCCESSFUL ] com.typesafe.play#twirl-api_2.11;1.0.4!twirl-api_2.11.jar (78ms)
-    [info] downloading https://repo1.maven.org/maven2/biz/cgta/otest-sjs_sjs0.6_2.11/0.2.1/otest-sjs_sjs0.6_2.11-0.2.1.jar ...
-    [info] 	[SUCCESSFUL ] biz.cgta#otest-sjs_sjs0.6_2.11;0.2.1!otest-sjs_sjs0.6_2.11.jar (137ms)
-    [info] downloading https://repo1.maven.org/maven2/org/scala-js/scalajs-dom_sjs0.6_2.11/0.8.0/scalajs-dom_sjs0.6_2.11-0.8.0.jar ...
     <snip>
     info] Done updating.
     [info] LESS compiling on 8 source(s)
@@ -640,5 +631,5 @@ Additionaly for release version:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzY1NDA2NjgsMjkwNDYxMzk2XX0=
+eyJoaXN0b3J5IjpbMTcwNjMzOTYwMiwyOTA0NjEzOTZdfQ==
 -->
