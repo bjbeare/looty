@@ -463,7 +463,9 @@ Now you are free to use whatever item data you wish, and test it to your heart c
 
 If you would like to prepare your own sample-item.json file. Here's [how-to](./HowTo-sample-items-file.md).
 
-#### Useful links:
+### Developing on Ubuntu
+The latest Ubuntu doesn't support some of the older tools used in this project. The following docker file may be used to set up 
+### Useful links:
 
 - [Firefox extension documentation](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions)
 - [Scala documentation](https://docs.scala-lang.org/)
@@ -556,5 +558,5 @@ Additionaly for release version:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzY2MjUxNzQ0XX0=
+eyJoaXN0b3J5IjpbLTU0NzEyOTc4XX0=
 -->
