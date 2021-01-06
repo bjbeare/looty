@@ -495,6 +495,19 @@ The latest Ubuntu doesn't support some of the older tools used in this project. 
     # You will want to enter "fastOptJS" at the ">" prompt to complete the build.
     # To use an iterative build enter "~fastOptJS" at the ">" prompt.
     CMD cd /root/looty; bin/sbt
+   
+   Successful build output will look something like this (parts omitted):
+   [bjbeare@bjbeare-desktop test1]$ docker run -ti docker/test1:latest
+Using node v8
+PATH += ~/.nvs/node/8.17.0/x64/bin
+Getting org.scala-sbt sbt 0.13.6 ...
+downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/sbt/0.13.6/jars/sbt.jar ...
+	[SUCCESSFUL ] org.scala-sbt#sbt;0.13.6!sbt.jar (1557ms)
+downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.4/scala-library-2.10.4.jar ...
+	[SUCCESSFUL ] org.scala-lang#scala-library;2.10.4!scala-library.jar (2039ms)
+downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/main/0.13.6/jars/main.jar ...
+<snip>
+
 
 ### Useful links:
 
@@ -593,5 +606,5 @@ Additionaly for release version:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTgzMjg2MjUsMjkwNDYxMzk2XX0=
+eyJoaXN0b3J5IjpbLTU3MTU5OTgxOSwyOTA0NjEzOTZdfQ==
 -->
