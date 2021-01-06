@@ -466,6 +466,34 @@ If you would like to prepare your own sample-item.json file. Here's [how-to](./H
 ### Developing on Ubuntu
 The latest Ubuntu doesn't support some of the older tools used in this project. The following docker file may be used to set up and build Looty using Ubuntu 18.04.
 
+    # Docker File to build Looty
+    
+    FROM ubuntu:18.04
+      
+    RUN apt-get update
+    RUN apt-get dist-upgrade -y
+    
+    # Helpful optional tools
+    RUN apt-get install git curl vim net-tools inetutils-ping inetutils-traceroute -y
+    
+    # Required Tools
+    RUN apt-get install openjdk-8-jre-headless -y
+    RUN apt-get install node.js -y
+    
+    ENV NVS_HOME=/root/.nvs
+    ENV JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64/
+    RUN echo "JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64/" >> /etc/environment
+    
+    RUN git clone https://github.com/jasongin/nvs $NVS_HOME
+    RUN bash $NVS_HOME/nvs.sh install
+    RUN $NVS_HOME/nvs add node/8
+    
+    # pull a clean looty
+    RUN git clone https://github.com/benjaminjackman/looty.git /root/looty
+    
+    # Run with 'docker run -ti <image>'
+    # You will want to enter "fastOptJS" at the ">" prompt to complete the build.
+    CMD cd /root/looty; bin/sbt
 
 ### Useful links:
 
@@ -559,6 +587,7 @@ Additionaly for release version:
 
 
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjkwNDYxMzk2XX0=
+eyJoaXN0b3J5IjpbLTM5MDMzNzA1NywyOTA0NjEzOTZdfQ==
 -->
