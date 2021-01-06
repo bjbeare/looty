@@ -493,6 +493,7 @@ The latest Ubuntu doesn't support some of the older tools used in this project. 
     
     # Run with 'docker run -ti <image>'
     # You will want to enter "fastOptJS" at the ">" prompt to complete the build.
+    # To use an iterative build enter "~fastOptJS" at the ">" prompt.
     CMD cd /root/looty; bin/sbt
 
 ### Useful links:
@@ -502,6 +503,9 @@ The latest Ubuntu doesn't support some of the older tools used in this project. 
 - [Scala 2.12 Library](https://devdocs.io/scala~2.12_library/) parsed doc from previous site Library API but easier to search
 - [RePoe](https://github.com/brather1ng/RePoE) repository of Path of Exile resources. Contains the generated data from GGPK file in JSON format  
 - [Itellij IDEA](https://www.jetbrains.com/idea/) Java IDE with native Scala support
+
+### Explanation of the build process
+bla bla
 
 ### How to build for iterative development
 #### Prequisites
@@ -589,5 +593,5 @@ Additionaly for release version:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5MDMzNzA1NywyOTA0NjEzOTZdfQ==
+eyJoaXN0b3J5IjpbLTEzOTQwNzczNTEsMjkwNDYxMzk2XX0=
 -->
