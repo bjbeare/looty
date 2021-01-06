@@ -464,7 +464,7 @@ Now you are free to use whatever item data you wish, and test it to your heart c
 If you would like to prepare your own sample-item.json file. Here's [how-to](./HowTo-sample-items-file.md).
 
 ### Developing on Ubuntu
-The latest Ubuntu doesn't support some of the older tools used in this project. The following docker file may be used to set up and build Looty using Ubuntu 18.04.
+The latest Ubuntu doesn't support some of the older tools used in this project. The following docker file may be used to set up and build Looty using Ubuntu 18.04. The setup and use of Docker is beyond the scope of this document. There are some excellent youtube videos on Docker available (they take a few hours to watch).
 
     # Docker File to build Looty
     
@@ -593,5 +593,5 @@ Additionaly for release version:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTQwNzczNTEsMjkwNDYxMzk2XX0=
+eyJoaXN0b3J5IjpbLTIxMTgzMjg2MjUsMjkwNDYxMzk2XX0=
 -->
