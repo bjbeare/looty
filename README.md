@@ -474,9 +474,10 @@ If you would like to prepare your own sample-item.json file. Here's [how-to](./H
 ### How to build for iterative development
 #### Prequisites
 
-1. Have nvs (https://github.com/jasongin/nvs) installed for node (This version of ScalaJS needs node version 8 installed)
-2. Have java8 installed (https://github.com/frekele/oracle-java/releases) (This version of Scala doesn't support later jvms)
-3. Have SBT (Simple Build Tool) for compiling Scala into js. This is already __included__ in looty project (sbt-launch-0.13.0.jar).
+1. If using Ubuntu as your development environment, you will need to use Ubuntu 18.04
+2. Have nvs (https://github.com/jasongin/nvs) installed for node (This version of ScalaJS needs node version 8 installed)
+3. Have java8 installed (https://github.com/frekele/oracle-java/releases) (This version of Scala doesn't support later jvms)
+4. Have SBT (Simple Build Tool) for compiling Scala into js. This is already __included__ in looty project (sbt-launch-0.13.0.jar).
 And is run via sbt or sbt-win.cmd commands.
 
 in the project root at command line:  
@@ -556,5 +557,5 @@ Additionaly for release version:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2NDc2Mzk3MV19
+eyJoaXN0b3J5IjpbLTM1OTQ1OTk2OV19
 -->
